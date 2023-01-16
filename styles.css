@@ -89,8 +89,8 @@ article {
   border:none;
   position: top;
   position: absolute;
-  top: 1rem;
-  right:1rem;
+  top: 0.5rem;
+  right:0.5rem;
 }
 
 .tag {
@@ -148,8 +148,8 @@ nav {
 /* pink */
   .bookmark,
   .profile__image,
-  .bmimg,
-  .questionimg {
+  .questionimg,
+  .bmimg {
     filter: invert(19%) sepia(58%) saturate(1184%) hue-rotate(203deg) brightness(97%) contrast(92%);
   }
   
