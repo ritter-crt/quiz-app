@@ -1,0 +1,67 @@
+/* __________________GENERAL SETUP__________________ */
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* __________________HEADER__________________ */
+header {
+    display:flex;
+    justify-content: center;
+    background-color: rgb(173, 65, 134);
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+/* __________________MAIN:QUESTIONS__________________ */
+/* main{
+    display: flex;
+} */
+
+.box__1 {
+    width: fit-content;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(129, 157, 73, 0.397);
+    border-radius: 10px;
+}
+
+.question__1 {
+    display:flex;
+    
+}
+.box__2 {
+    width: fit-content;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(129, 157, 73, 0.397);
+    border-radius: 10px;
+}
+/* __________________NAVBAR_FOOTER__________________ */
+nav {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: flex-end;
+    /* position: fixed; */
+    width: 100%;
+    border-radius: 10px;
+    z-index: 1;
+    background-color: rgb(229, 87, 62);
+  }
+  
+  .nav__links li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3sec ease 0;
+  }
+  
+  .nav__links li a:hover {
+    color: rgb(255, 255, 255);
+  }
