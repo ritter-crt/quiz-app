@@ -9,32 +9,37 @@
 header {
     display:flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: orangered;
-    border-radius: 10px;
     width: 100%;
+    height: 60px;
+    /* left:0 */
+    text-align: center;
     color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+    z-index: 1;
+    margin-bottom: 20rem;
 }
 
 /* __________________MAIN:QUESTIONS__________________ */
-/* main{
-    display: flex;
-} */
-
-h4 {
+h2 {
   text-align: center;
   font-size: 1rem;
   font-weight: 100;
 }
 
+main {
+  margin: 80px 0px 100px
+}
 .cards {
-    width: fit-content;
-    height: 300px;
-    width: 100%;
+    margin: 1rem 2rem;
+    height: 270px;
     padding: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -44,11 +49,12 @@ h4 {
     border-style:solid;
     border-width: 0.3rem;
     border-radius: 10px;
+    
 }
 
 .answer {
-    flex: display;
-    justify-content:space-around;
+    /* flex: display; */
+    /* justify-content:space-around; */
     border:none;
     padding: 2%;
     border-radius: 10px;
@@ -57,21 +63,32 @@ h4 {
 }
 
 .bookmark {
-  background-color: deeppink;
+  background-color: white;
   color: white;
   border:none;
   border-radius: 5%;
   position: top;
   position: absolute;
+  top: 1rem;
+  right:1rem;
+  font-size: 20px;
 }
 
-.bm--1 {
-  top: 1rem;
-  right:1rem;
+.tag {
+  position:absolute;
+  bottom: 1rem;
+  left:1rem;
+  /* --------STYLE--------*/
+  border: none;
+  border-style: solid; 
+  border-color: orangered;
+  background-color: white;
+  border-radius: 4px;
+  padding:5px;
 }
-.bm--2 {
-  top: 1rem;
-  right:1rem;
+
+.tag--2{
+  left:5rem;
 }
 
 section {
@@ -83,11 +100,12 @@ section {
 /* __________________NAVBAR_FOOTER__________________ */
 nav {
     display: flex;
-    flex-wrap:nowrap;
     justify-content: center;
-    align-items: baseline;
+    align-items: baseline; 
     align-content: flex-end;
-    /* position: fixed; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     border-radius: 10px;
     z-index: 1;
@@ -97,12 +115,15 @@ nav {
   .nav__links li {
     display: inline-block;
     padding: 0px 10px;
+    padding: 0rem 2rem;
   }
   
   .nav__links li a {
-    transition: all 0.3sec ease 0;
+    /* transition: all 0.3sec ease 0; */
+    text-decoration: none;
+    font-size: 30px;
   }
   
-  .nav__links li a:hover {
+  /* .nav__links li a:hover {
     color: rgb(255, 255, 255);
-  }
+  } */
