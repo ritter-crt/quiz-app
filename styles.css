@@ -6,6 +6,9 @@
 }
 
 /* __________________HEADER__________________ */
+h1 {
+  text-transform: uppercase;
+}
 header {
     display:flex;
     justify-content: center;
