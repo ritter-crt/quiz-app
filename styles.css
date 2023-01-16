@@ -20,16 +20,25 @@ header {
     display: flex;
 } */
 
-.box {
+h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.cards {
     width: fit-content;
     height: 300px;
     width: 100%;
+    padding: 10%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
+    /* ------box_style------ */
     /* background-color:rgba(206, 223, 21, 0.158); */
     border-color: orangered;
     border-style:solid;
@@ -47,10 +56,22 @@ header {
 
 }
 
-.box__bookmark {
-  border: 2px solid #ff4a11;
+.bookmark {
+  background-color: deeppink;
+  color: white;
+  border:none;
   border-radius: 5%;
-  display: flex;
+  position: top;
+  position: absolute;
+}
+
+.bm--1 {
+  top: 1rem;
+  right:1rem;
+}
+.bm--2 {
+  top: 1rem;
+  right:1rem;
 }
 
 section {
