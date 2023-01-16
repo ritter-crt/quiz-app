@@ -45,12 +45,14 @@ main {
   margin: 80px 0px 100px;
   position: relative;
 }
+
 h3 {
   position:absolute;
   top:30%;
   right: 20%;
   color:#2F3C7E
 }
+
 .about_me {
   padding:20px;
   height:200px;
