@@ -1,0 +1,81 @@
+  /* __________________MAIN:QUESTIONS/PROFILE__________________ */
+  h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    color: var(--dark-color);
+    padding: 20px;
+  }
+  
+  main {
+    margin: 80px 0px 100px;
+    position: relative;
+  }
+  
+  h3 {
+    position: absolute;
+    text-transform: capitalize;
+    right: 5%;
+    color: var(--dark-color);
+  }
+  
+  article {
+    padding: 20px;
+    height: 400px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 30px;
+    align-items: center;
+  }
+  
+  .cards {
+    margin: 1rem 2rem;
+    height: 270px;
+    padding: 10%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: var(--light-color);
+    border-color: var(--dark-color);
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 0px 0px var(--dark-color);
+  }
+  
+  .answer {
+    border: none;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    
+  }
+  
+  .bookmark {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    position: top;
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+  }
+  
+  .tag {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    border-style: solid;
+    border-color: var(--dark-color);
+    background-color: var(--light-color);
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 2px 0px 0px var(--dark-color);
+  }
+  
+  .tag--2 {
+    left: 5rem;
+  }

@@ -1,9 +1,16 @@
-/* __________________GENERAL SETUP__________________ */
+/* GLOBAL SETTINGS
+   ____________________________ */
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  body {
+    background-color: var(--light-color);
+  }
   
+  /* VARIABLES
+   ____________________________ */
   :root {
     --light-color: #fbeaeb;
     --dark-color: #2f3c7e;
@@ -11,7 +18,8 @@
     --foreground: black;
   }
 
-/* __________________FILTERS__________________ */
+/* FILTERS FOR C
+   ____________________________  */
 
 /* blue */
 .nav__links {
@@ -46,6 +54,7 @@
     font-size: 0.6rem;
     z-index: 1;
     margin-bottom: 20rem;
+    
   }
 
   
