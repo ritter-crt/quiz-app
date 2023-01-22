@@ -2,6 +2,22 @@
     width: 50%;
   }
   
+  h3 {
+    position: absolute;
+    text-transform: capitalize;
+    right: 5%;
+    color: var(--dark-color);
+  }
+  
+  article {
+    padding: 20px;
+    height: 400px;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 30px;
+    align-items: center;
+  }
+  
   section {
     width: 100%;
     background-color: white;
