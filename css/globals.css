@@ -15,7 +15,7 @@
     --light-color: #fbeaeb;
     --dark-color: #2f3c7e;
     --background: white;
-    --foreground: black;
+    --foreground: rgb(87, 56, 56);
   }
 
 /* FILTERS FOR C
