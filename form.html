@@ -12,18 +12,26 @@
     <header>
         <h1 class="header--title">Trivia Quiz</h1>
       </header>
-    <main>
-        <form data-js="form-question">
-                <label for="question">Your Question</label>
-                <input type="text" name="create question"/>
-                <label for="Yanswer">Your Answer</label>
-                <input type="text" name="create answer"/>
-                <label for="tag">Your Tags</label>
-                <input type="text" name="create tags"/>
+    
+      
+        <form class="new__form" data-js="form-question">
+                <label class="text-question" for="question">Your Question</label>
+                <textarea name="question" data-js="question-text"cols="30" rows="5" maxlength="150"></textarea>
+                <small class="form__character-count">
+                  (<span data-js="amountLeftQuestion"></span> characters left)</small>
+                <label class="text-answer" for="answer">Your Answer</label>
+                <textarea name="answer" data-js="answer-text" cols="30" rows="5" maxlength="150"></textarea>
+                <small class="form__character-count">
+                  (<span data-js="amountLeftAnswer"></span> characters left)</small>
+                <label class="label-tag"for="tag">Your Tags</label>
+                <input class="input-tag" type="text" name="tag" data-js="tags" maxlength="15"/>
+                <button aria-label="submit" class="button--submit" data-js="button-submit">submit</button>
         </form>
+      
+      <main class="card-container">
 
 
-        
+      </main>
         <footer>
             <nav>
               <ul class="nav__links">
@@ -45,6 +53,11 @@
                     />
                   </a>
                 </li>
+                <li aria-label="navigate to create questoion" class="nav__question">
+                  <a href="http://127.0.0.1:5500/profile.html">
+                     <img src="assets/plus_filled.png" width="40"alt="profile"/>
+                  </a>
+                </li>
                 <li aria-label="navigate to profile" class="nav__profile">
                   <a href="http://127.0.0.1:5500/profile.html">
                     <img
@@ -56,10 +69,8 @@
                 </li>
               </ul>
             </nav>
-
-
-
-    </main>
+          </footer>
+    
     
 </body>
 </html>

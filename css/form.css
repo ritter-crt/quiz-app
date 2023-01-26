@@ -1,0 +1,47 @@
+.new__form {
+    margin: 7rem 2rem 0rem 2rem;
+    height: 50%;
+    padding: 10%;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: var(--light-color);
+    border-color: var(--dark-color);
+    border-style: solid;
+    border-width: 0.3rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
+  }
+
+  .text-question,
+  .text-answer,
+  .label-tag,
+  .form__character-count {
+    color: var(--dark-color);
+    margin: 1rem 2rem;
+  }
+
+  textarea, 
+  .input-tag {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: solid var(--dark-color) ;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
+  }
+  .input-tag{
+    width: 40%;
+    margin: 0.5rem;
+  }
+
+  .button--submit{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+
+  }
