@@ -1,6 +1,10 @@
 const answer = document.querySelector('[data-js="answer"]');
 const btnShowAnswer = document.querySelector('[data-js="show-answer"]');
 
+// answer.addEventListener('load',() =>  {
+//     let remove = document.getElementsByName("answer");
+// });
+
 btnShowAnswer.addEventListener("click", () => {
   const toggleAnswer = () => {
     const isHidden = answer.style.display === "none";
