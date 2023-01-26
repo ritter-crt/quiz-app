@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>quiz</title>
-    </head>
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="index.js"></script>
-    <header>
-        <h1 class="header--title">Trivia Quiz</h1>
-    </header>
-    <body>
-    <main aria-label="question cards">
-        <div class="cards">
-            <h2> What was the first fruit that was eaten on the moon? </h2>
-            <button aria-label="show"class="answer">show answer</button>
-            <button class = "bookmark bm--1">
-                <img src="https://img.icons8.com/windows/128/null/filled-bookmark-ribbon.png" width="40" alt="bookmark"/>
-            </button>
-            <button aria-label="stone fruit"class="tag">#stone fruit</button>
-        </div>
+    <script src="main.js" defer></script>
     
-        <div class="cards"> 
-            <h2>What does come down but never goes up?</h2>
-            <button class="answer">show answer</button>
-            <button class="bookmark bm--2">
-                <img src="https://img.icons8.com/material/480/null/bookmark-outline.png" width="40" width="50"alt="bookmark"/>
-            </button>
-            <button aria-label="weather"class="tag">#weather</button>
+  </head>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <header>
+    <h1 class="header--title">Trivia Quiz</h1>
+  </header>
+  <body>
+    <main aria-label="cards">
+      <div class="cards">
+        <h2>What was the first fruit that was eaten on the moon?</h2>
+        <button aria-label="show answer" class="cards__answer--show" data-js="show-answer">show answer</button>
 
+        <div class="card__answered" data-js="answer" type="hidden">
+          Astronauts had previously enjoyed applesauce while orbiting the earth,
+          but PEACHES were the first fruit to be eaten on the moonname
         </div>
-        
-        <div class="cards"> 
-            <h2>What is measured in "Mickeys"?</h2>
-            <button class="answer">show answer</button>
-            <button class="bookmark bm--3">
-                <img src="https://img.icons8.com/material/480/null/bookmark-outline.png" width="40" alt="bookmark"/>
-            </button>
-            <button aria-label="computing" class="tag">#computing</button>
-        </div>
+
+        <button aria-label="label bookmark" class="bookmark__icon">
+          <img src="./assets/bookmark_outline.png" width="40" alt="bookmark" />
+        </button>
+        <button aria-label="stone fruit" class="tag">#stone fruit</button>
+      </div>
+
+      <div class="cards">
+        <h2>What does come down but never goes up?</h2>
+        <button
+          aria-label="show answer"
+          class="cards__answer--show"
+          data-js="show-answer"
+        >
+          show answer
+        </button>
+        <button aria-label="label bookmark" class="bookmark__icon">
+          <img src="./assets/bookmark_outline.png" width="40" alt="bookmark" />
+        </button>
+        <button aria-label="weather" class="tag">#weather</button>
+      </div>
+
+      <div class="cards">
+        <h2>What is measured in "Mickeys"?</h2>
+        <button
+          aria-label="show answer"
+          class="cards__answer--show"
+          data-js="show-answer"
+        >
+          show answer
+        </button>
+        <button aria-label="label bookmark" class="bookmark__icon">
+          <img src="./assets/bookmark_outline.png" width="40" alt="bookmark" />
+        </button>
+        <button aria-label="computing" class="tag">#computing</button>
+      </div>
     </main>
-        <footer>
-            <nav>
-                <ul class="nav__links" >
-                  <li aria-label="navigate home"class="nav__home">
-                    <a href="http://127.0.0.1:5500/index.html">
-                        <img src="https://img.icons8.com/material-sharp/45/null/home-page.png" alt="home" width="40"/>
-                    </a>
-                </li>
-                  <li aria-label="navigate to booksmarks"class="nav__bookmark">
-                    <a href="http://127.0.0.1:5500/bookmarks.html">
-                        <img src="https://img.icons8.com/material/40/null/bookmark-outline.png " width="40"alt="bookmark"/>
-                    </a>
-                </li>
-                  <li aria-label="navigate to profile" class="nav__profile">
-                    <a href="http://127.0.0.1:5500/profile.html">
-                        <img src="https://img.icons8.com/fluency-systems-regular/40/null/user.png" width="40" alt="profile"/>
-                    </a>
-                </li>
-                </ul>
-               </nav>
-        </footer>
-
-    
-</body>
+    <footer>
+      <nav>
+        <ul class="nav__links">
+          <li aria-label="navigate home" class="nav__home">
+            <a href="http://127.0.0.1:5500/index.html">
+              <img
+                src="https://img.icons8.com/material-sharp/45/null/home-page.png"
+                alt="home"
+                width="40"
+              />
+            </a>
+          </li>
+          <li aria-label="navigate to booksmarks" class="nav__bookmark">
+            <a href="http://127.0.0.1:5500/bookmarks.html">
+              <img
+                src="https://img.icons8.com/material/40/null/bookmark-outline.png "
+                width="40"
+                alt="bookmark"
+              />
+            </a>
+          </li>
+          <li aria-label="navigate to profile" class="nav__profile">
+            <a href="http://127.0.0.1:5500/profile.html">
+              <img
+                src="https://img.icons8.com/fluency-systems-regular/40/null/user.png"
+                width="40"
+                alt="profile"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

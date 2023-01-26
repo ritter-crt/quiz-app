@@ -12,30 +12,47 @@
   :root {
     --dark-color: #2f3c7e;
     --light-color: #fbeaeb;
+    --filter-light: invert(100%) sepia(34%) saturate(2246%) hue-rotate(216deg)
+    brightness(107%) contrast(96%);
+    --filter-dark: invert(19%) sepia(58%) saturate(1184%) hue-rotate(203deg)
+    brightness(97%) contrast(92%);
   }
 
-  .dark--theme {
-    --dark-color: #fbeaeb;
-    --light-color: #10142b;
+ dark-theme {
+    --dark-color: #ffffff;
+    --light-color: #080b1c;
+    --filter-light: invert(100%) sepia(34%) saturate(2246%) hue-rotate(216deg)
+    brightness(107%) contrast(96%);
+    --filter-dark: invert(19%) sepia(58%) saturate(1184%) hue-rotate(203deg)
+    brightness(97%) contrast(92%);
   }
 
  /* __________________FILTERS__________________ */
 
-/* blue */
+/* pink */
 .nav__links {
-    filter: invert(100%) sepia(34%) saturate(2246%) hue-rotate(216deg)
-      brightness(107%) contrast(96%);
+  filter: var(--filter-light);
   }
-  /* lightpink */
-  .bookmark,
+/* blue */
+  .card__icon,
+  .bookmark__icon,
   .profile__image,
-  .questionimg,
-  .bmimg {
-    filter: invert(19%) sepia(58%) saturate(1184%) hue-rotate(203deg)
-      brightness(97%) contrast(92%);
+  .button--profile {
+    filter: var(--filter-dark);
   }
   
   /* __________________HEADER__________________ */
+  header {
+    background-color: var(--dark-color);
+    font-size: 0.8rem;
+    height: 90px;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
   .header--title {
     text-transform: uppercase;
     color: var(--light-color);
@@ -50,19 +67,6 @@
     width: 100%;
   }
 
-  header {
-    background-color: var(--dark-color);
-    font-size: 0.8rem;
-    height: 13%;
-    left: 0;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-  }
-
-  
 /* __________________NAVBAR_FOOTER__________________ */
 nav {
     display: flex;
@@ -72,7 +76,7 @@ nav {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 13%;
+    height: 90px;
     z-index: 1;
     background-color: var(--dark-color);
   }

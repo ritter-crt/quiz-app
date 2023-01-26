@@ -25,20 +25,21 @@
     border-width: 0.3rem;
     border-radius: 2rem;
     text-align: center;
-    box-shadow: 0.3rem 0.1rem 0.1rem var(--dark-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
   }
     /* __________________BUTTON_ANSWER_________________ */
-  .answer {
+  .cards__answer--show,
+  .cards_answer--hide {
     border: none;
-    padding: 2%;
+    padding: 10px;
     border-radius: 5rem;
     background-color: var(--dark-color);
     color: var(--light-color);
-
-    
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
   }
     /* __________________IMG_BOOKMARKS__________________ */
-  .bookmark {
+  .bookmark__icon
+   {
     background-color: rgba(255, 255, 255, 0);
     border: none;
     position: top;
@@ -57,7 +58,7 @@
     background-color: var(--light-color);
     border-radius: 0.5rem;
     padding: 1%;
-    box-shadow: 0.2rem 0.1rem 0.1rem var(--dark-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
     color: var(--dark-color);
   }
   
