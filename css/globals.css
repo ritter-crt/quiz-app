@@ -70,8 +70,6 @@
 /* __________________NAVBAR_FOOTER__________________ */
 nav {
     display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -83,6 +81,6 @@ nav {
   
   .nav__links li {
     display: inline-block;
-    padding: 0rem 2rem;
+    padding: 0rem 1.2rem;
   }
 
