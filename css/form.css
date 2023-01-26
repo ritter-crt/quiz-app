@@ -1,6 +1,6 @@
 .new__form {
     margin: 7rem 2rem 0rem 2rem;
-    height: 50%;
+    height: 30%;
     padding: 10%;
     position: relative;
     display: flex;
@@ -20,7 +20,13 @@
   .label-tag,
   .form__character-count {
     color: var(--dark-color);
-    margin: 1rem 2rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .card__answered{
+    color: var(--dark-color);
+    margin: 1rem 1rem;
+    font-weight: 3rem;
   }
 
   textarea, 
@@ -30,9 +36,12 @@
     border: solid var(--dark-color) ;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
+    width: 90%;
   }
+
   .input-tag{
     width: 40%;
+    height: 20px;
     margin: 0.5rem;
   }
 
@@ -43,5 +52,4 @@
     background-color: var(--dark-color);
     color: var(--light-color);
     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-
   }

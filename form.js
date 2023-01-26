@@ -17,6 +17,10 @@ form.addEventListener("submit", (event) => {
   const tag = data.tags;
   // console.log(question, answer, tag)
   createCard(data);
+  form.reset();
+  form.elements.question.focus();
+  amountLeftAnswer.textContent= maxLength;
+  amountLeftQuestion.textContent= maxLength
 });
 
 function createCard(cardData) {
