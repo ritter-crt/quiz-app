@@ -10,10 +10,13 @@
   
   /* __________________VARIABLES__________________ */
   :root {
-    --background: white;
     --dark-color: #2f3c7e;
-    --foreground: black;
     --light-color: #fbeaeb;
+  }
+
+  .dark--theme {
+    --dark-color: #fbeaeb;
+    --light-color: #10142b;
   }
 
  /* __________________FILTERS__________________ */
