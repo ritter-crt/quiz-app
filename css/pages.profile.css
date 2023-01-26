@@ -28,6 +28,11 @@
     color: var(--dark-color);
   }
 
+  .button--option {
+    display: inline-block;
+    padding: 0rem 2rem;
+  }
+
   /* __________________DARK_MODE_TOGGLE__________________ */
 
 /* The switch - the box around the slider */
