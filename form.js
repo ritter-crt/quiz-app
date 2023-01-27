@@ -8,6 +8,7 @@ const createQuestion = document.querySelector('[data-js="question-text"]');
 const createAnswer = document.querySelector('[data-js="answer-text"]');
 const createTags = document.querySelector('[data-js="tags"]');
 
+
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const formData = new FormData(event.target);

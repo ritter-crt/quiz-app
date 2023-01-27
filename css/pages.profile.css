@@ -5,13 +5,14 @@
   h3 {
     position: absolute;
     text-transform: capitalize;
+    top:15%;
     right: 5%;
     color: var(--dark-color);
   }
   
   article {
     padding: 20px;
-    height: 400px;
+    height: 40%;
     background-color: var(--light-color);
     color: var(--dark-color);
     border-radius: 30px;
@@ -19,27 +20,24 @@
   }
   
   section {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     border-radius: 10px;
-    height: 10rem;
-    background-color: var(--dark-color);
     padding: 10px;
-  }
-  
-  .counter {
-    color: var(--dark-color);
+    margin-bottom: 100px;
   }
 
-  .button--option {
-    display: inline-block;
-    padding: 0rem 2rem;
+ .setting {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: var(--dark-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 4px 1px 1px;
   }
+
+ 
+
 
   /* __________________DARK_MODE_TOGGLE__________________ */
-
-/* The switch - the box around the slider */
-/* .icon--light-mode{
-  position: absolute;
-  top: 15%;
-  right: 10%;
-} */

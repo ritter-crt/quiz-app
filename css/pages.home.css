@@ -1,10 +1,11 @@
   /* __________________MAIN:QUESTIONS/PROFILE__________________ */
-  h2 {
+  h2,
+  .card__answered {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: lighter;
     color: var(--dark-color);
-    padding: 20px;
+    padding: 10px;
   }
   
   main {
@@ -12,10 +13,11 @@
   }
   
   .cards {
-    margin: 1rem 3rem;
-    height: 20rem;
+    margin: 2rem 3rem;
+    height: 23rem;
     padding: 10%;
     position: relative;
+    top: 30px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -36,7 +38,9 @@
     background-color: var(--dark-color);
     color: var(--light-color);
     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+    
   }
+
     /* __________________IMG_BOOKMARKS__________________ */
   .bookmark__icon
    {
