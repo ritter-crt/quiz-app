@@ -5,6 +5,7 @@
   h3 {
     position: absolute;
     text-transform: capitalize;
+    top:15%;
     right: 5%;
     color: var(--dark-color);
   }
@@ -27,10 +28,10 @@
     margin-bottom: 100px;
   }
 
- .settings {
+ .setting {
     border: none;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 1rem;
     background-color: var(--dark-color);
     box-shadow: rgba(0, 0, 0, 0.15) 4px 1px 1px;
