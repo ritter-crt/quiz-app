@@ -14,16 +14,16 @@
   </header>
   <body>
     <main>
-      <h3 class="username">Remedios Varo</h3>
+      <h3 class="username">Username</h3>
       <img
         class="profile__image"
         src="https://www.reshot.com/preview-assets/icons/WYM2X8PL7U/female-profile-WYM2X8PL7U.svg"
         aria-label="profile_pic"
         alt="profile picture"
       />
-      <article class="about_me">
+      <article class="description--headline">
         About
-        <p class="description" aria-label="Text about user">
+        <p class="description--about" aria-label="Text about user">
           Remedios Varo, original name in full María de los Remedios Alicia
           Rodriga Varo y Uranga, (born December 16, 1908, Anglès, Girona,
           Spain—died October 8, 1963, Mexico City, Mexico), Spanish-Mexican
@@ -32,25 +32,16 @@
           beings engaged in magic arts or the occult.
         </p>
       </article>
-      <section class="settings">
-        <p> Settings</p>
-        <ul class="button--option">
-          <li> 
-            <img class="button--profile"
-              class="button questionimg"
-              src="https://img.icons8.com/ios-filled/30/null/question-mark.png"/>
-            435
-          </li>
-          <li> 
-             <img
-            class="button--profile"
-            src="https://img.icons8.com/small/32/null/filled-bookmark-ribbon.png"
-            aria-label="button_counter_bookmark"/>
-            85 
-          </li>
-          <li><img class="button--profile" src="assets/sun_60.png" class="icon--light-mode" width="40"alt="bookmark"/>
-          </li>
-        </ul>
+      <section>
+        <button class="setting">
+          <img class="button__profile" id="button__profile" src="https://img.icons8.com/ios-filled/30/null/question-mark.png" width="20"alt="bookmark"/>
+        </button>
+        <button>
+          <img class="button__profile" id="button__profile" src="https://img.icons8.com/small/32/null/filled-bookmark-ribbon.png" width="20"alt="bookmark"/>
+        </button>
+        <button>
+          <img class="button__profile--unactive" id="button__profile"  data-js="button-unactive" src="assets/sun_60.png" width="20"alt="bookmark"/>
+        </button>
       </section>
     </main>
     <footer>
@@ -65,8 +56,8 @@
             /></a>
           </li>
           <li aria-label="navigate to bookmarks">
-            <a href="http://127.0.0.1:5500/bookmarks.html"
-              ><img
+            <a href="http://127.0.0.1:5500/bookmarks.html">
+              <img
                 src="https://img.icons8.com/material/40/null/bookmark-outline.png"
                 width="40"
                 alt="bookmark"

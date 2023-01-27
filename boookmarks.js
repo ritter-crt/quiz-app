@@ -1,7 +1,7 @@
 console.clear();
 
 const bookmarkOutline = document.querySelector('[data-js="card__icon--unactive"]');
-const bookmarkFilled = document.querySelector('[data-js="card__icon--active"]');
+// const bookmarkFilled = document.querySelector('[data-js="card__icon--active"]');
 const bookmarkButton = document.querySelector("card__icon");
 
 bookmarkOutline.addEventListener("click", () => {
