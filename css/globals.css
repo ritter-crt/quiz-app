@@ -10,7 +10,7 @@
   }
   
   /* __________________VARIABLES__________________ */
-  :root {
+:root {
     --dark-color: #2f3c7e;
     --light-color: #fbeaeb;
     --filter-light: invert(100%) sepia(34%) saturate(2246%) hue-rotate(216deg)
@@ -68,6 +68,7 @@
   }
 
 /* __________________NAVBAR_FOOTER__________________ */
+
 nav {
     display: flex;
     justify-content: center;
