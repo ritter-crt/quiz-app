@@ -1,6 +1,6 @@
 console.clear();
 
-const darkModeButton = document.querySelector('[data-js="button-unactive"]')
+const darkModeButton = document.querySelector('[data-js="darkmode--unactive"]')
 darkModeButton.addEventListener("click", () =>{
     document.body.classList.toggle("darkmode");
 });

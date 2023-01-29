@@ -9,67 +9,68 @@
 </head>
 <link rel="stylesheet" href="./css/styles.css" />
 <body>
-    <header>
-        <h1 class="header--title">Trivia Quiz</h1>
-      </header>
-    
-      
-        <form class="new__form" data-js="form-question">
-                <label class="text-question" for="question">Your Question</label>
-                <textarea name="question" data-js="question-text"cols="30" rows="5" maxlength="150"></textarea>
+  <header>
+    <h1>Trivia Quiz</h1>
+  </header>
+
+  <main>
+        <form class="form" data-js="form">
+                <label class="form__question" for="question">Your Question</label>
+                <textarea name="question" data-js="form__question--text" cols="30" rows="5" maxlength="150"></textarea>
                 <small class="form__character-count">
                   (<span data-js="amountLeftQuestion"></span> characters left)</small>
-                <label class="text-answer" for="answer">Your Answer</label>
-                <textarea name="answer" data-js="answer-text" cols="30" rows="5" maxlength="150"></textarea>
+                <label class="form__answer" for="answer">Your Answer</label>
+                <textarea name="answer" data-js="form__answer--text" cols="30" rows="5" maxlength="150"></textarea>
                 <small class="form__character-count">
                   (<span data-js="amountLeftAnswer"></span> characters left)</small>
-                <label class="label-tag"for="tag">Your Tags</label>
-                <input class="input-tag" type="text" name="tag" data-js="tags" maxlength="15"/>
-                <button aria-label="submit" class="button--submit" data-js="button-submit">submit</button>
+                <label class="form__label-tag"for="tag">Your Tags</label>
+                <input class="form__input-tag" type="text" name="tag" data-js="form__tag" maxlength="15"/>
+                <button aria-label="submit" class="form__button--submit" data-js="form__button--submit">submit</button>
         </form>
       
-      <main class="card-container">
+        <section class="card__container" data-js="card__container">
+        </section>
 
-
-      </main>
+        
         <footer>
-            <nav>
-              <ul class="nav__links">
-                <li aria-label="navigate home" class="nav__home">
-                  <a href="http://127.0.0.1:5500/index.html">
+          <nav class="nav">
+            <ul class="nav-links">
+              <li aria-label="navigate home" class="nav-links__home">
+                <a href="http://127.0.0.1:5500/index.html">
+                  <img
+                    src="./assets/home2_outline.png"
+                    alt="home"
+                    width="40"/>
+                </a>
+              </li>
+              <li aria-label="navigate to booksmarks" class="nav-links__bookmark">
+                <a href="http://127.0.0.1:5500/bookmarks.html">
+                  <img
+                    src="assets/bookmark_outline.png"
+                    width="40"
+                    alt="bookmark"
+                  />
+                </a>
+                </li>
+                <li aria-label="navigate to create questoion" class="nav-links__question">
+                  <a href="http://127.0.0.1:5500/form.html">
                     <img
-                      src="https://img.icons8.com/material-sharp/45/null/home-page.png"
-                      alt="home"
+                      src="assets/create_filled.png"
                       width="40"
-                    />
+                      alt="profile"/>
                   </a>
-                </li>
-                <li aria-label="navigate to booksmarks" class="nav__bookmark">
-                  <a href="http://127.0.0.1:5500/bookmarks.html">
-                    <img
-                      src="https://img.icons8.com/material/40/null/bookmark-outline.png "
-                      width="40"
-                      alt="bookmark"
-                    />
-                  </a>
-                </li>
-                <li aria-label="navigate to create questoion" class="nav__question">
-                  <a href="http://127.0.0.1:5500/profile.html">
-                     <img src="assets/plus_filled.png" width="40"alt="profile"/>
-                  </a>
-                </li>
-                <li aria-label="navigate to profile" class="nav__profile">
-                  <a href="http://127.0.0.1:5500/profile.html">
-                    <img
-                      src="https://img.icons8.com/fluency-systems-regular/40/null/user.png"
-                      width="40"
-                      alt="profile"
-                    />
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </footer>
+              </li>
+              <li aria-label="navigate to profile" class="nav-links__profile">
+                <a href="http://127.0.0.1:5500/profile.html">
+                  <img
+                    src="./assets/profile_outline.png"
+                    width="40"
+                    alt="profile"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
     
     
 </body>

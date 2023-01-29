@@ -9,21 +9,22 @@
   </head>
   <link rel="stylesheet" href="./css/styles.css" />
   <header>
-    <h1 class="header--title">Trivia Quiz</h1>
-    <h2 class="header--subtitle">Profile</h2>
+    <h1>Trivia Quiz</h1>
+    <h2>Profile</h2>
   </header>
+
   <body>
     <main>
-      <h3 class="username">Username</h3>
+      <h3 class="profile__username">Username</h3>
       <img
         class="profile__image"
         src="https://www.reshot.com/preview-assets/icons/WYM2X8PL7U/female-profile-WYM2X8PL7U.svg"
         aria-label="profile_pic"
         alt="profile picture"
       />
-      <article class="description--headline">
+      <article>
         About
-        <p class="description--about" aria-label="Text about user">
+        <p  class="profile__about" aria-label="Text about user">
           Remedios Varo, original name in full María de los Remedios Alicia
           Rodriga Varo y Uranga, (born December 16, 1908, Anglès, Girona,
           Spain—died October 8, 1963, Mexico City, Mexico), Spanish-Mexican
@@ -33,48 +34,53 @@
         </p>
       </article>
       <section>
-        <button class="setting">
-          <img class="button__profile" id="button__profile" src="https://img.icons8.com/ios-filled/30/null/question-mark.png" width="20"alt="bookmark"/>
+        <button class="profile__button">
+          <img class="profile__question_created" id="question_created" src="https://img.icons8.com/ios-filled/30/null/question-mark.png" width="20"alt="bookmark"/>
         </button>
-        <button class="setting">
-          <img class="button__profile" id="button__profile" src="https://img.icons8.com/small/32/null/filled-bookmark-ribbon.png" width="20"alt="bookmark"/>
+        <button class="profile__button">
+          <img class="profile__bookmark_saved" id="bookmark_saved" src="https://img.icons8.com/small/32/null/filled-bookmark-ribbon.png" width="20"alt="bookmark"/>
         </button>
-        <button class="setting">
-          <img class="button__profile--unactive" id="button__profile"  data-js="button-unactive" src="assets/sun_60.png" width="20"alt="bookmark"/>
+        <button class="profile__button">
+          <img class="profile__darkmode--unactive" id="darkmode--unactive"  data-js="darkmode--unactive" src="assets/sun_60.png" width="20"alt="bookmark"/>
         </button>
       </section>
     </main>
+    
     <footer>
-      <nav>
-        <ul class="nav__links">
-          <li aria-label="navigate home">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li aria-label="navigate home" class="nav-links__home">
             <a href="http://127.0.0.1:5500/index.html">
               <img
-                src="https://img.icons8.com/material-outlined/50/null/home-page.png"
-                width="40"
+                src="./assets/home2_outline.png"
                 alt="home"
-            /></a>
-          </li>
-          <li aria-label="navigate to bookmarks">
-            <a href="http://127.0.0.1:5500/bookmarks.html">
-              <img
-                src="https://img.icons8.com/material/40/null/bookmark-outline.png"
-                width="40"
-                alt="bookmark"
-            /></a>
-          </li>
-          <li aria-label="navigate to create questoion" class="nav__question">
-            <a href="http://127.0.0.1:5500/form.html">
-               <img src="assets/plus_outline.png" width="40"alt="profile"/>
+                width="40"/>
             </a>
           </li>
-          <li aria-label="navigate to profile">
-            <a href="http://127.0.0.1:5500/profile.html"
-              ><img
-                src="https://img.icons8.com/material-rounded/50/null/user.png"
+          <li aria-label="navigate to booksmarks" class="nav-links__bookmark">
+            <a href="http://127.0.0.1:5500/bookmarks.html">
+              <img
+                src="assets/bookmark_outline.png"
                 width="40"
-                alt="profile"
-            /></a>
+                alt="bookmark"
+              />
+            </a>
+            </li>
+            <li aria-label="navigate to create questoion" class="nav-links__question">
+              <a href="http://127.0.0.1:5500/form.html">
+                <img
+                  src="assets/create_outline.png"
+                  width="40"
+                  alt="profile"/>
+              </a>
+          </li>
+          <li aria-label="navigate to profile" class="nav-links__profile">
+            <a href="http://127.0.0.1:5500/profile.html">
+              <img
+                src="./assets/profile_filled.png"
+                width="40"
+                alt="profile"/>
+            </a>
           </li>
         </ul>
       </nav>

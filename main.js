@@ -1,8 +1,8 @@
 
 console.clear();
 
-const bookmarkOutline = document.querySelector('[data-js="card__icon--unactive"]');
-const bookmarkFilled = document.querySelector('[data-js="card__icon--active"]');
+const bookmarkOutline = document.querySelector('[data-js="bookmark--unactive"]');
+const bookmarkFilled = document.querySelector('[data-js="bookmark--active"]');
 const bookmarkButton = document.querySelector("card__icon");
 
 bookmarkOutline.addEventListener("click", () => {
@@ -15,8 +15,8 @@ bookmarkOutline.addEventListener("click", () => {
 });
 
 
-const answer = document.querySelector('[data-js="answer"]');
-const btnShowAnswer = document.querySelector('[data-js="show-answer"]');
+const answer = document.querySelector('[data-js="answer--hidden"]');
+const btnShowAnswer = document.querySelector('[data-js="button--show"]');
 
 btnShowAnswer.addEventListener("click", () => {
   answer.classList.toggle("hidden");

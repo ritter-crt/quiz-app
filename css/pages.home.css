@@ -1,68 +1,69 @@
-  /* __________________MAIN:QUESTIONS/PROFILE__________________ */
-  h2,
-  .card__answered {
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: lighter;
-    color: var(--dark-color);
-    padding: 10px;
-  }
-  
-  main {
-    margin: 5rem 0;
-  }
-  
-  .cards {
-    margin: 2rem 3rem;
-    height: 23rem;
-    padding: 10%;
-    position: relative;
-    top: 30px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    background-color: var(--light-color);
-    border-color: var(--dark-color);
-    border-style: solid;
-    border-width: 0.3rem;
-    border-radius: 2rem;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
-  }
-    /* __________________BUTTON_ANSWER_________________ */
-  .cards__answer--show,
-  .cards_answer--hide {
-    border: none;
-    padding: 10px;
-    border-radius: 5rem;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-    
-  }
-
-    /* __________________IMG_BOOKMARKS__________________ */
-  .bookmark__icon
-   {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    position: top;
-    position: absolute;
-    top: 0.2rem;
-    right: 0.2rem;
-  }
-  
-   /* __________________BUTTON_TAGS_________________ */
-  .tag__icon {
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    border-style: solid;
-    border-color: var(--dark-color);
-    background-color: var(--light-color);
-    border-radius: 0.5rem;
-    padding: 1%;
-    box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
-    color: var(--dark-color);
-  }
-  
+   /* __________________MAIN:QUESTIONS/PROFILE__________________ */
+   h2,
+   .card__answer--hide {
+     text-align: center;
+     font-size: 1.3rem;
+     font-weight: lighter;
+     color: var(--font-color);
+     padding: 10px;
+   }
+   
+   main {
+     margin: 5rem 0;
+   }
+   
+   .card__container{
+     display: flex;
+     flex-flow: column;
+   }
+   .card {
+     margin: 2rem 3rem;
+     height: 23rem;
+     padding: 10%;
+     position: relative;
+     top: 30px;
+     
+     align-items: center;
+     background-color: var(--light-color);
+     border-color: var(--dark-color);
+     border-style: solid;
+     border-width: 0.3rem;
+     border-radius: 2rem;
+     text-align: center;
+     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 6px;
+   }
+     /* __________________BUTTON_ANSWER_________________ */
+   .card__button--show {
+     border: none;
+     padding: 10px;
+     border-radius: 5rem;
+     background-color: var(--dark-color);
+     color: var(--light-color);
+     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+   }
+ 
+     /* __________________IMG_BOOKMARKS__________________ */
+   .card__bookmark__icon
+    {
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     position: top;
+     position: absolute;
+     top: 0.2rem;
+     right: 0.2rem;
+   }
+   
+    /* __________________BUTTON_TAGS_________________ */
+   .card__tag {
+     position: absolute;
+     bottom: 1rem;
+     left: 1rem;
+     border-style: solid;
+     border-color: var(--dark-color);
+     background-color: var(--light-color);
+     border-radius: 0.5rem;
+     padding: 1%;
+     box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 3px;
+     color: var(--dark-color);
+   }
+   

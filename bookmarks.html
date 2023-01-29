@@ -13,61 +13,91 @@
         <h2 class="header--subtitle"> bookmarks</h2>
     </header>
     <body>
-    <main class="card-container">
-        <div class="cards">
-        <h2 card__question> What was the first fruit that was eaten on the moon? </h2>
-        <button aria-label="show answer" class="cards__answer--show">show answer</button>
-            <button class = "bookmark__icon">
-                <img src="./assets/bookmark_filled.png" class="card__icon--unactive" data-js="card__icon--unactive" width="40" alt="bookmark"/>
-            </button>
-            <button aria-label="stone fruit"class="tag__icon">#stone fruit</button>
-        </div>
     
-        <div class="cards"> 
-            <h2 card__question>What does come down but never goes up?</h2>
-            <button aria-label="show answer" class="cards__answer--show">show answer</button>
-            <button class = "bookmark__icon">
-                <img src="./assets/bookmark_filled.png" class="card__icon--unactive" data-js="card__icon--unactive" width="40" alt="bookmark"/>
-            </button>
-            <button aria-label="weather"class="tag__icon">#weather</button>
+      <main>
+      <section class="card__container">
+        <div class="card">
+          <h2 class="card__title" >What was the first fruit that was eaten on the moon? </h2>
+          <button 
+          aria-label="show answer" 
+          class="card__button--show" 
+          data-js="button--show">show answer
+          </button>
+           <p class="hidden card__answer--hide" data-js="answer--hidden"> Peaches 🍑 </p>
+          <button class = "card__bookmark__icon">
+            <img src="./assets/bookmark_filled.png" class="card__icon--unactive" data-js="bookmark--unactive" width="40" alt="bookmark"/>
+          </button>
+          <button aria-label="stone fruit" class="card__tag">#stone fruit</button>
+        </div>
+  
+        <div class="card">
+          <h2 class="card__title">What does come down but never goes up?</h2>
+          <button
+            aria-label="show answer"
+            class="card__button--show" 
+            data-js="button--show">show answer
+          </button>
+            <p class="hidden card__button--hide" data-js="button--hide">Rain</p>
+          <button class = "card__bookmark__icon">
+            <img src="./assets/bookmark_filled.png" class="card__icon--unactive" data-js="bookmark--unactive" width="40" alt="bookmark"/>
+          </button>
+          <button aria-label="weather" class="card__tag">#weather</button>
+        </div>
+  
+        <div class="card">
+          <h2 card__question>What is measured in "Mickeys"?</h2>
+          <button
+          aria-label="show answer"
+          class="card__button--show" 
+          data-js="button--show">show answer
+          </button>
+            <p class="hidden card__button--hide" data-js="button--hide">Rain</p>
+          <button class = "card__bookmark__icon">
+            <img src="./assets/bookmark_filled.png" class="card__icon--unactive" data-js="bookmark--unactive" width="40" alt="bookmark"/>
+          </button>
+          <button aria-label="computing" class="card__tag">#computing</button>
+        </div>
+      </section>
+      </main>
 
-        </div>
-        
-        <div class="cards"> 
-            <h2 card__question>What is measured in "Mickeys"?</h2>
-            <button aria-label="show answer" class="cards__answer--show">show answer</button>
-            <button class="bookmark__icon" data-js="answer-hidden">
-                <img src="./assets/bookmark_filled.png" class="card__icon--unactive" width="40" alt="bookmark"/>
-            </button>
-            <button aria-label="computing" class="tag__icon">#computing</button>
-        </div>
-    </main>
         <footer>
-            <nav>
-                <ul class="nav__links">
-                    <li aria-label="navigate home"class="nav__home">
-                        <a href="http://127.0.0.1:5500/index.html">
-                            <img src="https://img.icons8.com/material-outlined/50/null/home-page.png" width="40" alt="home"/>
-                        </a>
-                    </li>
-            
-                    <li aria-label="navigate to bookmarks"class="nav__bookmark">
-                        <a href="http://127.0.0.1:3000/bookmarks.html">
-                            <img src="https://img.icons8.com/windows/45/null/filled-bookmark-ribbon.png" width="40"alt="bookmark"/>
-                        </a>
-                    </li>
-                <li aria-label="navigate to create questoion" class="nav__question">
-                    <a href="http://127.0.0.1:5500/form.html">
-                       <img src="assets/plus_outline.png" width="40"alt="profile"/>
-                   </a>
-               </li>
-                    <li aria-label="navigate to profile"class="nav__profile">
-                        <a href="http://127.0.0.1:5500/profile.html">
-                            <img src="https://img.icons8.com/fluency-systems-regular/40/null/user.png"width="40" alt="profile"/>
-                        </a>
-                    </li>
-                  </ul>
-               </nav>
+          <nav class="nav">
+            <ul class="nav-links">
+              <li aria-label="navigate home" class="nav-links__home">
+                <a href="http://127.0.0.1:5500/index.html">
+                  <img
+                    src="./assets/home2_outline.png"
+                    alt="home"
+                    width="40"/>
+                </a>
+              </li>
+              <li aria-label="navigate to booksmarks" class="nav-links__bookmark">
+                <a href="http://127.0.0.1:5500/bookmarks.html">
+                  <img
+                    src="assets/bookmark_filled.png"
+                    width="40"
+                    alt="bookmark"
+                  />
+                </a>
+                </li>
+                <li aria-label="navigate to create questoion" class="nav-links__question">
+                  <a href="http://127.0.0.1:5500/form.html">
+                    <img
+                      src="assets/create_outline.png"
+                      width="40"
+                      alt="profile"/>
+                  </a>
+              </li>
+              <li aria-label="navigate to profile" class="nav-links__profile">
+                <a href="http://127.0.0.1:5500/profile.html">
+                  <img
+                    src="./assets/profile_outline.png"
+                    width="40"
+                    alt="profile"/>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </footer>    
 </body>
 </html>
